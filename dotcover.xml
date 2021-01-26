@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root CoveredStatements="10" TotalStatements="11" CoveragePercent="91" ReportType="DetailedXml" DotCoverVersion="2020.3.2">
+  <FileIndices>
+    <File Index="1" Name="/src/PrimeService.Tests/PrimeService_IsPrimeShould.cs" ChecksumAlgorithm="SHA256" Checksum="19E437E0190D1DC06EE1181A2DCEA3847C5C05CB7C382BD21073CC9BC27BA4ED" />
+    <File Index="2" Name="/src/PrimeService/PrimeService.cs" ChecksumAlgorithm="SHA256" Checksum="549545682B6B516E5CA15488C61C36FFE11B18A61185484DC064BE94B1E36E78" />
+  </FileIndices>
+  <Assembly Name="PrimeService" CoveredStatements="5" TotalStatements="6" CoveragePercent="83">
+    <Namespace Name="Prime.Services" CoveredStatements="5" TotalStatements="6" CoveragePercent="83">
+      <Type Name="PrimeService" CoveredStatements="5" TotalStatements="6" CoveragePercent="83">
+        <Method Name="IsPrime(System.Int32):System.Boolean" CoveredStatements="5" TotalStatements="6" CoveragePercent="83">
+          <Statement FileIndex="2" Line="8" Column="9" EndLine="8" EndColumn="10" Covered="True" />
+          <Statement FileIndex="2" Line="9" Column="13" EndLine="9" EndColumn="32" Covered="True" />
+          <Statement FileIndex="2" Line="10" Column="13" EndLine="10" EndColumn="14" Covered="True" />
+          <Statement FileIndex="2" Line="11" Column="17" EndLine="11" EndColumn="30" Covered="True" />
+          <Statement FileIndex="2" Line="13" Column="13" EndLine="13" EndColumn="73" Covered="False" />
+          <Statement FileIndex="2" Line="14" Column="9" EndLine="14" EndColumn="10" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+  </Assembly>
+  <Assembly Name="PrimeService.Tests" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+    <Namespace Name="Prime.UnitTests.Services" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+      <Type Name="PrimeService_IsPrimeShould" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+        <Method Name="IsPrime_InputIs1_ReturnFalse():System.Void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="1" Line="10" Column="9" EndLine="10" EndColumn="10" Covered="True" />
+          <Statement FileIndex="1" Line="11" Column="13" EndLine="11" EndColumn="51" Covered="True" />
+          <Statement FileIndex="1" Line="12" Column="13" EndLine="12" EndColumn="51" Covered="True" />
+          <Statement FileIndex="1" Line="14" Column="13" EndLine="14" EndColumn="59" Covered="True" />
+          <Statement FileIndex="1" Line="15" Column="9" EndLine="15" EndColumn="10" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+  </Assembly>
+</Root>
